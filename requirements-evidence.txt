@@ -1,0 +1,4 @@
+# Optional document/screenshot generation, separate from model inference.
+playwright>=1.50,<2
+python-docx>=1.2,<2
+pymupdf>=1.26,<3

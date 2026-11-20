@@ -1,0 +1,37 @@
+{
+  "declaration": "Completed response sheets checked against the answer keys supplied by the student. These are study/submission artifacts, not a claim of an instructor-awarded score. Day 1 questions about specific instructor scripts follow the supplied key because those original scripts were not provided.",
+  "day_1": [
+    [1,"B","marks is the target assigned to y; hours_studied is the input feature."],
+    [2,"B","20 times 0.25 gives 5 test observations and 15 training observations."],
+    [3,"B","A fixed random_state makes the randomized train/test split reproducible."],
+    [4,"A","Fit slope and intercept on training rows only to keep test data out of fitting."],
+    [5,"B","m is the slope: the change in the predicted target for a one-unit change in x."],
+    [6,"C","c = (sum(y) - m * sum(x)) / n, equivalently mean(y) - m * mean(x)."],
+    [7,"B","Absolute error = abs(60 - 55) = 5 marks."],
+    [8,"A","MAE = (2 + 4 + 1 + 3 + 0) / 5 = 2 marks."],
+    [9,"B","R-squared compares residual squared error with variation around the actual-value mean."],
+    [10,"B","According to the supplied key, first_mlflow_run.py logs MAE and R-squared."],
+    [11,"A","log_param records the test_size configuration value for the run."],
+    [12,"A","log_artifact records my_note.txt as a file artifact associated with the run."],
+    [13,"A (True)","According to the supplied key, baseline_model.py prints evaluation output without MLflow tracking."],
+    [14,"A (True)","According to the supplied key, the model is logged under marks_regression_model."],
+    [15,"A, B, C","The supplied key says the script logs model_type, mae_demo and my_note.txt; it does not train or log a fitted model."]
+  ],
+  "day_2": [
+    [1,"B","set_experiment selects the experiment in which subsequent runs are recorded."],
+    [2,"C","start_run begins a run for recording experiment information; it does not start a server."],
+    [3,"B","log_param records a setting, while log_metric records a numerical measurement."],
+    [4,"A","Tags attach descriptive metadata to help organize and identify runs."],
+    [5,"C","log_artifact uploads the file as an artifact of the active run."],
+    [6,"A","The tracking URI specifies the destination for MLflow tracking information."],
+    [7,"C","If MLFLOW_TRACKING_URI is absent, os.getenv returns the supplied localhost default."],
+    [8,"B","sklearn.autolog automatically records supported training information."],
+    [9,"C","The contexts create two separate runs that can be inspected independently."],
+    [10,"B","n_estimators=5 means the Random Forest contains five trees."],
+    [11,"A","train_test_split separates observations into training and testing subsets."],
+    [12,"C","MAE and R-squared measure predictive performance on held-out test data."],
+    [13,"B","The loop trains models with different Ridge regularization strengths and records separate runs."],
+    [14,"D","Lower MAE generally means smaller absolute prediction errors on the same evaluation data."],
+    [15,"C","The client needs a reachable tracking server to send its tracking information."]
+  ]
+}

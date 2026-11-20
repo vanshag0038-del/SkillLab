@@ -1,0 +1,17 @@
+{
+  "student": "HARSHA BS",
+  "usn": "1MS25CI051",
+  "section": "A",
+  "course_details": "Blank fields on the document cover; official title/code not supplied",
+  "github_url": "https://github.com/harsha31bs07-blip/1MS25CI051-mlflow-champion-challenger",
+  "github_visibility": "private",
+  "github_status": "Existing private repository; final local revision has not been pushed during this review",
+  "lms_status": "Awaiting LMS assignment URL",
+  "instructor_access": "Awaiting instructor GitHub username or permission to make repository public",
+  "quizzes": "Both supplied quizzes completed with explanations; no instructor score claimed",
+  "native_terminal_screenshot": "Still required: Computer Use native pipe unavailable; labeled rendering of actual transcript retained",
+  "final_local_review_date": "2026-11-13",
+  "local_package": "Prepared locally; see Submission.zip and SUBMISSION_GUIDE.md",
+  "documents": "23-page lab record and 2-page quiz sheet; DOCX plus visually reviewed PDF copies",
+  "validation": "17 tests passed; original model replay and all 14 lab audits passed; isolated offline fresh execution passed"
+}
